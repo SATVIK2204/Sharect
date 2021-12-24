@@ -66,8 +66,8 @@ router.post('/send', async (req, res) => {
       requireTLS: true,
       // secure: process.env.SECURE,
       auth: {
-        user: 'rahulkhandelwal9530057219@gmail.com',
-        pass: 'nzavbziivgymbneo',
+        user: process.env.SMTP_MAIL_USER,
+        pass: process.env.SMTP_MAIL_PASS,
       },
     });
 
