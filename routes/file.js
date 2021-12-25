@@ -56,7 +56,7 @@ router.post('/send', async (req, res) => {
 
     // Create a SMTP transporter object
     let transporter = nodemailer.createTransport({
-      host: 'smtp.gmail.com',
+      host: process.env.SMTP_HOST,
       port: 587,
       secure: false,
       requireTLS: true,

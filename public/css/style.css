@@ -96,6 +96,13 @@ body,
   box-shadow: 0px 20px 20px 0px #00000017;
 }
 
+/* .title-container{
+  position: relative;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 20px 20px 0px #00000017;
+} */
+
 .drop-zone {
   width: var(--container-width);
   min-height: 200px;
